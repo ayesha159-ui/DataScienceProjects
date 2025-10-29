@@ -8,3 +8,16 @@
 - In the notebook, it’s read with:  
   ```python
   df = pd.read_excel('data/World military power.xlsx', header=1)
+## What I Deliver
+- **Clear EDA**: quick stats, missingness, and correlations to understand drivers.
+- **Clean features**: parsed numerics, light imputation, and scaled inputs ready for modeling.
+- **Clustering**: K-Means (k≈4) with elbow/silhouette justification + a hierarchical dendrogram preview.
+- **Explainability**: per-cluster feature profiles (boxplots/heatmaps) and concise takeaways.
+- **Artifacts**: cluster assignments table in the notebook (optional CSV export to `results/`).
+- **Reproducibility**: environment file, simple run steps, and git-ignored data/artifacts.
+- **Limitations noted**: “power” is feature-dependent; results are descriptive, not a ranking.
+
+## How to run
+using pip
+pip install -r requirements.txt
+jupyter lab
