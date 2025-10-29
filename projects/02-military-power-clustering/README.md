@@ -18,6 +18,13 @@
 - **Limitations noted**: “power” is feature-dependent; results are descriptive, not a ranking.
 
 ## How to run
-using pip
+## How to run
+```bash
+# Option A: conda
+conda env create -f environment.yml
+conda activate kc-prices
+jupyter lab
+
+# Option B: pip
 pip install -r requirements.txt
 jupyter lab
