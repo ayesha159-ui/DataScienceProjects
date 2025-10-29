@@ -3,12 +3,12 @@
 
 ## Dataset
 King County (Seattle area) house sales dataset (public).  
-File expected: `data/kc_house_data.csv` (see “Data” below).
+File: `data/kc_house_data.csv` (see “Data” below).
 
 ## What I deliver
 - Exploratory analysis (pricing trends, feature correlations, geospatial hints).
 - Clean feature pipeline (dates → age, bath/bed ratios, sqft per room, zipcode dummies).
-- Baseline & tuned models (Linear Regression, Random Forest, optional XGBoost).
+- Baseline & tuned models (Linear Regression, Extra Tree Regressor, GradientBoostingRegressor etc).
 - Explainability (per-feature importances + SHAP summary if enabled).
 - Metrics: RMSE / MAE on a strict hold-out split + cross-val.
 - Practical insights: top price drivers, where models underperform, how to use it.
