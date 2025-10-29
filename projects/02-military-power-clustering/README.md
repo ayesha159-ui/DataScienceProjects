@@ -18,7 +18,6 @@
 - **Limitations noted**: “power” is feature-dependent; results are descriptive, not a ranking.
 
 ## How to run
-## How to run
 ```bash
 # Option A: conda
 conda env create -f environment.yml
