@@ -3,7 +3,7 @@
 
 ## Dataset
 King County (Seattle area) house sales dataset (public).  
-File: `data/kc_house_data.csv` (see “Data” below).
+File: `data/kc_final.csv` (see “Data” below).
 
 ## What I deliver
 - Exploratory analysis (pricing trends, feature correlations, geospatial hints).
