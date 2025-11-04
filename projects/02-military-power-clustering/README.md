@@ -4,10 +4,7 @@
 **Notebook:** `World Military Power.ipynb`
 
 ## Data
-- Put the Excel file at: `data/World military power.xlsx`
-- In the notebook, it’s read with:  
-  ```python
-  df = pd.read_excel('data/World military power.xlsx', header=1)
+- File: `data/World military power.xlsx`` (see “Data” below).
 ## What I Deliver
 - **Clear EDA**: quick stats, missingness, and correlations to understand drivers.
 - **Clean features**: parsed numerics, light imputation, and scaled inputs ready for modeling.
