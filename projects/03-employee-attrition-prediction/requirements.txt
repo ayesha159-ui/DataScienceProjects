@@ -1,6 +1,8 @@
+pandas
 numpy
-scikit-learn
 matplotlib
 seaborn
-plotly
-pycountry
+scikit-learn
+imbalanced-learn
+xgboost
+jupyter
