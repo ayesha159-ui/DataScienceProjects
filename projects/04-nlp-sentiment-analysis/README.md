@@ -1,4 +1,4 @@
-# NLP Sentiment Analysis — Restaurant Reviews (Bacchanal Buffet)
+## NLP Sentiment Analysis-Restaurant Reviews (Bacchanal Buffet)
 
 This project performs **Natural Language Processing (NLP)–based sentiment analysis** on restaurant reviews.  
 Using text mining, preprocessing, and machine learning, it classifies reviews as **positive**, **negative**, or **neutral**.  
