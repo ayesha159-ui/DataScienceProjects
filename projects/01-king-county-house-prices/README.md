@@ -1,4 +1,4 @@
-# King County,WA — House Price Prediction
+# King County,WA — House Price Prediction (Regression)
 **Goal:** build a clean, reproducible baseline that predicts sale price from property features, with clear business takeaways.
 
 ## Dataset
