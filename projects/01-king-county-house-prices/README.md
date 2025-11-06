@@ -1,4 +1,4 @@
-# King County, WA — House Price Prediction
+# King County,WA — House Price Prediction
 **Goal:** build a clean, reproducible baseline that predicts sale price from property features, with clear business takeaways.
 
 ## Dataset
@@ -12,6 +12,13 @@ File: `data/kc_final.csv` (see “Data” below).
 - Explainability (per-feature importances + SHAP summary if enabled).
 - Metrics: RMSE / MAE on a strict hold-out split + cross-val.
 - Practical insights: top price drivers, where models underperform, how to use it.
+## Sample Results
+
+| Model                       | Accuracy  | R_Squared  | RMSE  | MAE  |
+|-----------------------------|-----------|------------|-------|------|
+| Linear Regression           | 80%       | 0.80       | 0.65  | 0.71 |
+| Extra Tree Regression       | 61%       | 0.61       | 0.74  | 0.78 |
+| Gradient Boosting Regressor | 73%       | 0.73       | 0.68  | 0.73 |
 
 ## How to run
 ```bash
