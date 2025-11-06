@@ -3,6 +3,9 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-imbalanced-learn
-xgboost
+langdetect
+textblob
+nltk
+wordcloud
+Pillow
 jupyter
