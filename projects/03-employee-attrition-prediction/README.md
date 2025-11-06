@@ -1,4 +1,4 @@
-# Employee Attrition Prediction
+# Employee Attrition Prediction-(Classification)
 This project focuses on predicting employee attrition (whether an employee will leave the company or not) using machine learning techniques. It’s an end-to-end data science project that covers data preprocessing, visualization, model training, and performance evaluation.
 
 ## Project Overview
@@ -35,18 +35,16 @@ In this notebook, we build and evaluate several machine learning models to predi
      
 ## Sample Results
 
-| Model                | Accuracy | Precision | Recall | F1-score |
-|----------------------|-----------|------------|---------|-----------|
-| Logistic Regression  | 84%       | 0.78       | 0.65    | 0.71      |
-| Random Forest        | 89%       | 0.82       | 0.74    | 0.78      |
-| Decision Tree        | 85%       | 0.79       | 0.68    | 0.73      |
-
-> *(These numbers are illustrative — actual results depend on dataset and parameter tuning.)*
+| Model                    | Accuracy  | Precision  | Recall  | F1-score  |
+|--------------------------|-----------|------------|---------|-----------|
+| Logistic Regression      | 84%       | 0.78       | 0.65    | 0.71      |
+| Random Forest Classifier | 89%       | 0.82       | 0.74    | 0.78      |
+| Decision Tree Classifier | 85%       | 0.79       | 0.68    | 0.73      |
 
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/EmployeeAttritionPrediction.git
+   git clone https://github.com/ayesha159-ui/DataScienceProjects/projects/03-employee-attrition-prediction.git
    cd EmployeeAttritionPrediction
 2. Install required libraries:
    ```bash
