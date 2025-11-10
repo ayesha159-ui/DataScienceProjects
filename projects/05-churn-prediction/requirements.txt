@@ -1,11 +1,20 @@
-
-# `requirements.txt` 
-```txt
+# Core dependencies
+pyspark==4.0.1
+findspark
 pandas
 numpy
+
+# Machine learning and evaluation
 scikit-learn
+imbalanced-learn
+
+# Visualization
 matplotlib
 seaborn
-xgboost
-shap
-ipywidgets
+
+# Deployment (optional but recommended)
+streamlit
+joblib
+
+# Utilities
+jupyter
