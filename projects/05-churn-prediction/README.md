@@ -40,6 +40,16 @@ This project leverages **PySpark** for distributed data processing and **Streaml
 - joblib (for saving additional files, optional)
 
 ---
+## 📈 Example Results
+---
+| Model                     | ROC-AUC  | Accuracy | 
+| ------------------------- | -------- | -------- | 
+| Logistic Regression       | 0.83     | 0.81     | 
+| Random Forest             | 0.84     | 0.84     | 
+| **GBTClassifier (final)** | **0.86** | **0.87** | 
+
+The GBT model achieved the best ROC-AUC and generalization.
+
 ## 🚀 How to Run
 ```bash
 # Option A: conda
