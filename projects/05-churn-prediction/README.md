@@ -23,6 +23,9 @@ This project leverages **PySpark** for distributed data processing and **Streaml
 ✅ Evaluation using ROC-AUC and accuracy metrics  ]
 
 ---
+
+## 🧰 Tech Stack
+
 **Languages & Frameworks**
 - Python 3.x
 - Apache Spark (PySpark 4.0.1)
@@ -35,9 +38,9 @@ This project leverages **PySpark** for distributed data processing and **Streaml
 - numpy  
 - matplotlib, seaborn  
 - joblib (for saving additional files, optional)
-  
+
 ---
-## How to run
+## 🚀 How to Run
 ```bash
 # Option A: conda
 conda env create -f environment.yml
